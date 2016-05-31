@@ -1,0 +1,3 @@
+package-$(CONFIG_PACKAGE_hellocpp) += hellocpp
+package-$(CONFIG_PACKAGE_helloworld) += helloworld
+package-$(CONFIG_PACKAGE_server) += server

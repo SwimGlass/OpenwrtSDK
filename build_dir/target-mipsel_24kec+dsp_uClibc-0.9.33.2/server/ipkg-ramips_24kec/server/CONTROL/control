@@ -1,0 +1,10 @@
+Package: server
+Version: 1.0.0-1
+Depends: libc
+Source: package/server
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 1933
+Description:  If you can't figure out what this program does,
+ you're probably brain-dead and need immediate
+ medical attention.

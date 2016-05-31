@@ -1,0 +1,29 @@
+server.c: In function 'main':
+server.c:29:17: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+                 exit(1);
+                 ^
+server.c:34:9: warning: incompatible implicit declaration of built-in function 'bzero' [enabled by default]
+         bzero ((char *)&myaddr, sizeof(myaddr));
+         ^
+server.c:45:17: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+                 exit(1);
+                 ^
+server.c:52:17: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+                 exit(1);
+                 ^
+server.c:62:55: warning: passing argument 2 of 'accept' from incompatible pointer type [enabled by default]
+                 if ((recfd = accept(socket_fd,(struct sockaddr_in *)&client_addr, &length)) <0) {
+                                                       ^
+In file included from server.c:3:0:
+/home/swimglass/Downloads/OpenWrt-SDK-ramips-mt7688_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-x86_64/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/socket.h:214:12: note: expected 'struct sockaddr * __restrict__' but argument is of type 'struct sockaddr_in *'
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+server.c:64:25: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+                         exit(1);
+                         ^
+server.c:70:25: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+                         exit (1);
+                         ^
+server.c:80:25: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+                         exit(1);
+                         ^
